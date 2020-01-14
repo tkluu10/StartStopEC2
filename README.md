@@ -1,6 +1,6 @@
 # Start/Stop EC2 with AWS Lambda
 
-Use two AWS Lambda functions to start/stop EC2 instances based on tags.
+Utilize AWS Lambda to start/stop EC2 instances based on tags.
 
 # Instructions
 
