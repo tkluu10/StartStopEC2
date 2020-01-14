@@ -21,7 +21,7 @@ def lambda_handler(event, context):
                     {'Name': 'tag:AutoStart',
                     'Values': ['True']}])
 
-        # Stop the instances
+        # Start the instances
         for instance in instances:
             instance.start()
             print('Started Instance: ', instance.id)
