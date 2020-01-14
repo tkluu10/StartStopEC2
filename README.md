@@ -2,7 +2,7 @@
 
 Use AWS Lambda to start/stop EC2 instances based on tags.
 
-Instructions:
+# Instructions
 
 1. Use "lambda_policy.json" to give AWS Lambda the necessary permissions to start/stop instances and gather the required information from EC2.
 2. Create a "StartEC2" AWS Lambda function which utilizes "startEC2.py" to start instances.
