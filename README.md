@@ -10,3 +10,5 @@ Use two AWS Lambda functions to start/stop EC2 instances based on tags.
 4. Create a CloudWatch rule to invoke the "StartEC2" AWS Lambda function at your desired start time.
 5. Create a CloudWatch rule to invoke the "StopEC2" AWS Lambda function at your desired stop time.
 6. Tag instances with AutoStart: True and AutoStop: True to associate them with the AWS Lambda functions.
+
+Instances tagged with AutoStart: True and AutoStop: True will now start and stop at the times specified in the CloudWatch rules.
